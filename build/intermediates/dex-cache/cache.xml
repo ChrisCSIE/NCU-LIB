@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a641d3fd18df0d21e8b1ff45ebd5b1b90f2106a9">
+        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0f8dc9faeab79e871cd3fe1a703913d1ee707865\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\libs\volley.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="485f5a92ea25e85950c191102638e22a60abd56f">
+        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_9fcda809b19de2d573a0bc5812369b3cf44c5dcc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_29bad81fd951cd03ddb2627043c44d909f37fae0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7549d290ce5e9187005e0e5d668144fa0ed34d2b">
+        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a2b6f9171abd7a6a32a65d8a40e2756f86fd2719\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_38cb6271317296072860735b0c850a5fa947f74f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_a3b96b7580c7a068b626600943ce4769fd57e9cc\classes.dex" />
+    </item>
+
+</items>

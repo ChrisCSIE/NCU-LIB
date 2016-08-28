@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homepage_background"
+    android:id="@+id/loginLayout" >
+    <!-- 
+    android:background="@drawable/homepage_background"
+    android:background="#ffffffff" -->
+    
+<!-- 
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/title" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="0dip"
+            android:gravity="center"
+            android:text="中央大學圖書管理系統"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip"
+            android:textStyle="bold" >
+        </TextView>
+    </FrameLayout>
+ -->
+    <FrameLayout
+        android:id="@+id/welcomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/welcome_title" />
+        <!-- android:layout_marginBottom="200dp" -->
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/componentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="600px"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/accountLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- android:layout_marginLeft="50px" -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account"
+                android:textColor="#000000"
+                android:textSize="19dip" />
+
+            <EditText
+                android:id="@+id/account"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:gravity="center"
+                android:background="@drawable/edittext_style"
+                android:password="true"
+                android:singleLine="true"
+                android:text=""
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pwdLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- android:layout_marginLeft="50px" -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="#000000"
+                android:textSize="19dip" />
+
+            <EditText
+                android:id="@+id/pwd"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:gravity="center"
+                android:background="@drawable/edittext_style"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/autoLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_usr_pwd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/btn_black"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="#ffffff"
+                android:textSize="17dip"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="5dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_black"
+                android:gravity="center"
+                android:text="@string/clean"
+                android:textColor="#ffffff"
+                android:textSize="17dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<drawable name="actionbar_background">#D35400</drawable>
+    <drawable name="background">#D2D7D3</drawable>
+    <drawable name="word">#2c3e50</drawable>
+    <drawable name="button">#16a085</drawable>
+    <drawable name="button_word">#E4F1FE</drawable> -->
+	
+	<!-- <drawable name="actionbar_background">#EAEAEA</drawable> -->
+    <drawable name="actionbar_background">#DDDDDD</drawable>
+    <drawable name="actionbar_text">#000000</drawable>
+    
+    <!-- #F37D2A -->
+    <!-- <drawable name="background">#F1F5EF</drawable> -->
+    <drawable name="white_background">#FFFFFF</drawable>
+    <drawable name="word">#0678A9</drawable>
+    <drawable name="button">#0175BE</drawable>
+    <drawable name="button_word">#F1F5EF</drawable>
+    <drawable name="loading_background">#F0F0F0</drawable>
+    <drawable name="not_requestable">#77A6A6A6</drawable>
+    
+    
+    <color name="button">#5ECBBC</color>
+    <color name="not_requestable">#888888</color>
+
+</resources>

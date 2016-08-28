@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button">#5ECBBC</color>
+    <color name="not_requestable">#888888</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <drawable name="actionbar_background">#DDDDDD</drawable>
+    <drawable name="actionbar_text">#000000</drawable>
+    <drawable name="button">#0175BE</drawable>
+    <drawable name="button_word">#F1F5EF</drawable>
+    <drawable name="loading_background">#F0F0F0</drawable>
+    <drawable name="not_requestable">#77A6A6A6</drawable>
+    <drawable name="white_background">#FFFFFF</drawable>
+    <drawable name="word">#0678A9</drawable>
+    <string name="ISBNsearch_button">ISBN Search</string>
+    <string name="account">Username:\t</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">NCU Lib</string>
+    <string name="barcode">Barcode</string>
+    <string name="book_detail">Call number / Location / Status / Barcode</string>
+    <string name="bookname">Book name</string>
+    <string name="button_cancel_request">Cancel requested books</string>
+    <string name="button_extend_borrowed">Extend borrowed books</string>
+    <string name="callnumber">Call number</string>
+    <string name="cancel_request_fail">Fail to cancel requested books. Please try again later.</string>
+    <string name="cancel_request_success">Succeed to cancel requested books.</string>
+    <string name="clean">Clean</string>
+    <string name="extend_borrowed_fail">Fail to renew. Please try again later.</string>
+    <string name="extend_borrowed_success">Succeed to renew books.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imprint">Imprint</string>
+    <string name="isbn">ISBN</string>
+    <string name="link">Link to</string>
+    <string name="location">Location</string>
+    <string name="login">Login</string>
+    <string name="logining">Please be patient for login.</string>
+    <string name="network_issue">Network unavailable.</string>
+    <string name="next">Next</string>
+    <string name="ok">OK.</string>
+    <string name="password">Password:\t</string>
+    <string name="press_back_again">Press \"Back\" again to quit.</string>
+    <string name="prev">Prev</string>
+    <string name="request">Request for ...</string>
+    <string name="request_button">Request</string>
+    <string name="request_result_fail">Fail to request. Please try again later.</string>
+    <string name="request_result_success">It will be handled by system, and you can check it out in \"Requested\" later.</string>
+    <string name="returnMenu">Return Menu</string>
+    <string name="returnSearch">Return Search</string>
+    <string name="save_usr_pwd">Save username and password</string>
+    <string name="search_button">Search</string>
+    <string name="search_hint">Insert Keywords ...</string>
+    <string name="status">Status</string>
+    <string name="text_no_borrowed">No borrowed book ...</string>
+    <string name="text_no_requested">No requested book ...</string>
+    <string name="text_refresh">Refresh</string>
+    <string name="text_select_all">Select All</string>
+    <string name="text_unselect_all">Unselect All</string>
+    <string name="title_activity_book_detail">Detail of Book</string>
+    <string name="title_activity_borrowed">Borrowed</string>
+    <string name="title_activity_main_menu_view">MainMenuView</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_new_books_list">New Books</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_request_book">Request Book</string>
+    <string name="title_activity_requested">Requested</string>
+    <string name="title_activity_search">Search Book</string>
+    <string name="title_borrowed">Borrowed</string>
+    <string name="title_newbooks">New Books</string>
+    <string name="title_news">\t\t\tNews</string>
+    <string name="title_notice">\t\tNotice</string>
+    <string name="title_requested">Requested</string>
+    <string name="title_search">\t\tSearch</string>
+    <string name="version">Version</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+        
+    </style>
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+</resources>

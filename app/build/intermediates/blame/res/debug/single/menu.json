@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\request_book.xml",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\menu\\request_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_borrowed.xml",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\menu\\menu_borrowed.xml"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_requested.xml",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\menu\\menu_requested.xml"
+    }
+]

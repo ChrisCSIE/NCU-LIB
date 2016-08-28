@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\searching.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\searching.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome_title.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\welcome_title.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\homepage_background.jpg",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\homepage_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_select_all.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_select_all.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hilight.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\hilight.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\text_field.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\text_field.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_refresh.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.jpg",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\welcome.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rader.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\rader.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigator.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\navigator.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_unselect_all.jpg",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_unselect_all.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_forward.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_forward.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.jpg",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\main_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawer_shadow.9.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_back.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\custom_edittext.png",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\custom_edittext.png"
+    },
+    {
+        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title.jpg",
+        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable-hdpi\\title.jpg"
+    }
+]

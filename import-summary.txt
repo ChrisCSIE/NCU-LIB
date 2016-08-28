@@ -1,0 +1,396 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* commons-lang3-3.4\
+* commons-lang3-3.4\CONTRIBUTING.md
+* commons-lang3-3.4\LICENSE.txt
+* commons-lang3-3.4\NOTICE.txt
+* commons-lang3-3.4\README.md
+* commons-lang3-3.4\RELEASE-NOTES.txt
+* commons-lang3-3.4\apidocs\
+* commons-lang3-3.4\apidocs\allclasses-frame.html
+* commons-lang3-3.4\apidocs\allclasses-noframe.html
+* commons-lang3-3.4\apidocs\constant-values.html
+* commons-lang3-3.4\apidocs\deprecated-list.html
+* commons-lang3-3.4\apidocs\help-doc.html
+* commons-lang3-3.4\apidocs\index-all.html
+* commons-lang3-3.4\apidocs\index.html
+* commons-lang3-3.4\apidocs\org\
+* commons-lang3-3.4\apidocs\org\apache\
+* commons-lang3-3.4\apidocs\org\apache\commons\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\AnnotationUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\ArrayUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\BitField.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\BooleanUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\CharEncoding.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\CharSequenceUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\CharSet.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\CharSetUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\CharUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\ClassPathUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\ClassUtils.Interfaces.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\ClassUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\Conversion.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\EnumUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\JavaVersion.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\LocaleUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\NotImplementedException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\ObjectUtils.Null.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\ObjectUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\RandomStringUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\RandomUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\Range.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\SerializationException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\SerializationUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\StringEscapeUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\StringUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\SystemUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\Validate.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\Builder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\CompareToBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\Diff.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\DiffBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\DiffResult.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\Diffable.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\EqualsBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\HashCodeBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\RecursiveToStringStyle.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\ReflectionToStringBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\StandardToStringStyle.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\ToStringBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\ToStringStyle.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\Builder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\CompareToBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\Diff.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\DiffBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\DiffResult.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\Diffable.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\EqualsBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\HashCodeBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\RecursiveToStringStyle.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\ReflectionToStringBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\StandardToStringStyle.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\ToStringBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\class-use\ToStringStyle.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\builder\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\AnnotationUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\ArrayUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\BitField.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\BooleanUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\CharEncoding.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\CharSequenceUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\CharSet.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\CharSetUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\CharUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\ClassPathUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\ClassUtils.Interfaces.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\ClassUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\Conversion.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\EnumUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\JavaVersion.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\LocaleUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\NotImplementedException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\ObjectUtils.Null.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\ObjectUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\RandomStringUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\RandomUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\Range.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\SerializationException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\SerializationUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\StringEscapeUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\StringUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\SystemUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\class-use\Validate.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\AtomicInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\AtomicSafeInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\BackgroundInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\BasicThreadFactory.Builder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\BasicThreadFactory.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\CallableBackgroundInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\ConcurrentException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\ConcurrentInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\ConcurrentRuntimeException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\ConcurrentUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\ConstantInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\LazyInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\MultiBackgroundInitializer.MultiBackgroundInitializerResults.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\MultiBackgroundInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\TimedSemaphore.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\AtomicInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\AtomicSafeInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\BackgroundInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\BasicThreadFactory.Builder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\BasicThreadFactory.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\CallableBackgroundInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\ConcurrentException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\ConcurrentInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\ConcurrentRuntimeException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\ConcurrentUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\ConstantInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\LazyInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\MultiBackgroundInitializer.MultiBackgroundInitializerResults.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\MultiBackgroundInitializer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\class-use\TimedSemaphore.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\concurrent\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\EventListenerSupport.ProxyInvocationHandler.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\EventListenerSupport.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\EventUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\class-use\EventListenerSupport.ProxyInvocationHandler.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\class-use\EventListenerSupport.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\class-use\EventUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\event\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\CloneFailedException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\ContextedException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\ContextedRuntimeException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\DefaultExceptionContext.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\ExceptionContext.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\ExceptionUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\CloneFailedException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\ContextedException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\ContextedRuntimeException.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\DefaultExceptionContext.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\ExceptionContext.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\class-use\ExceptionUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\exception\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\Fraction.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\IEEE754rUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\NumberUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\class-use\Fraction.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\class-use\IEEE754rUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\class-use\NumberUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\math\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\Mutable.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableBoolean.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableByte.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableDouble.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableFloat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableInt.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableLong.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableObject.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\MutableShort.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\Mutable.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableBoolean.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableByte.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableDouble.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableFloat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableInt.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableLong.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableObject.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\class-use\MutableShort.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\mutable\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\ConstructorUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\FieldUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\InheritanceUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\MethodUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\TypeLiteral.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\TypeUtils.WildcardTypeBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\TypeUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\Typed.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\ConstructorUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\FieldUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\InheritanceUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\MethodUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\TypeLiteral.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\TypeUtils.WildcardTypeBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\TypeUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\class-use\Typed.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\reflect\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\CompositeFormat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\ExtendedMessageFormat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\FormatFactory.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\FormattableUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\StrBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\StrLookup.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\StrMatcher.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\StrSubstitutor.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\StrTokenizer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\WordUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\CompositeFormat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\ExtendedMessageFormat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\FormatFactory.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\FormattableUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\StrBuilder.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\StrLookup.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\StrMatcher.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\StrSubstitutor.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\StrTokenizer.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\class-use\WordUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\AggregateTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\CharSequenceTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\CodePointTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\EntityArrays.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\JavaUnicodeEscaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\LookupTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\NumericEntityEscaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\NumericEntityUnescaper.OPTION.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\NumericEntityUnescaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\OctalUnescaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\UnicodeEscaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\UnicodeUnescaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\UnicodeUnpairedSurrogateRemover.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\AggregateTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\CharSequenceTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\CodePointTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\EntityArrays.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\JavaUnicodeEscaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\LookupTranslator.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\NumericEntityEscaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\NumericEntityUnescaper.OPTION.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\NumericEntityUnescaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\OctalUnescaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\UnicodeEscaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\UnicodeUnescaper.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\class-use\UnicodeUnpairedSurrogateRemover.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\text\translate\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\DateFormatUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\DateParser.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\DatePrinter.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\DateUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\DurationFormatUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\FastDateFormat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\FastDateParser.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\FastDatePrinter.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\StopWatch.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\DateFormatUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\DateParser.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\DatePrinter.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\DateUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\DurationFormatUtils.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\FastDateFormat.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\FastDateParser.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\FastDatePrinter.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\class-use\StopWatch.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\time\package-use.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\ImmutablePair.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\ImmutableTriple.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\MutablePair.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\MutableTriple.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\Pair.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\Triple.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\ImmutablePair.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\ImmutableTriple.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\MutablePair.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\MutableTriple.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\Pair.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\class-use\Triple.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\package-frame.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\package-summary.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\package-tree.html
+* commons-lang3-3.4\apidocs\org\apache\commons\lang3\tuple\package-use.html
+* commons-lang3-3.4\apidocs\overview-frame.html
+* commons-lang3-3.4\apidocs\overview-summary.html
+* commons-lang3-3.4\apidocs\overview-tree.html
+* commons-lang3-3.4\apidocs\package-list
+* commons-lang3-3.4\apidocs\resources\
+* commons-lang3-3.4\apidocs\resources\background.gif
+* commons-lang3-3.4\apidocs\resources\tab.gif
+* commons-lang3-3.4\apidocs\resources\titlebar.gif
+* commons-lang3-3.4\apidocs\resources\titlebar_end.gif
+* commons-lang3-3.4\apidocs\serialized-form.html
+* commons-lang3-3.4\apidocs\stylesheet.css
+* commons-lang3-3.4\commons-lang3-3.4-javadoc.jar
+* commons-lang3-3.4\commons-lang3-3.4.jar
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\volley.jar => app\libs\volley.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

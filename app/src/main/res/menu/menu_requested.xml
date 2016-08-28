@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="tw.edu.ncu.nculibrary.RequestedActivity">
+    <item android:icon="@drawable/ic_action_select_all"
+        android:id="@+id/requested_select_all"
+        android:title="@string/text_select_all"
+        android:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_unselect_all"
+        android:id="@+id/requested_unselect_all"
+        android:title="@string/text_unselect_all"
+        android:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_refresh"
+        android:id="@+id/requested_refresh"
+        android:title="@string/text_refresh"
+        android:showAsAction="ifRoom" />
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />-->
+</menu>
