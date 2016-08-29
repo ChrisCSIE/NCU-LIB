@@ -2,46 +2,60 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="a641d3fd18df0d21e8b1ff45ebd5b1b90f2106a9">
-        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0f8dc9faeab79e871cd3fe1a703913d1ee707865\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\libs\volley.jar"
+        jar="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\libs\volley.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="485f5a92ea25e85950c191102638e22a60abd56f">
-        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_9fcda809b19de2d573a0bc5812369b3cf44c5dcc\classes.dex" />
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_1b3f7be78465e41d5bc9bdb27e78e1319d9cb9b7\classes.dex" />
     </item>
     <item
-        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jar="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.3.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_29bad81fd951cd03ddb2627043c44d909f37fae0\classes.dex" />
+        sha1="29c426f3ff52238291c86e939dff6bd8a877b86c">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.3.0_e5b1e86e057c0e9e8996a648066294aa21be7e98\classes.dex" />
     </item>
     <item
-        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="7549d290ce5e9187005e0e5d668144fa0ed34d2b">
-        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a2b6f9171abd7a6a32a65d8a40e2756f86fd2719\classes.dex" />
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_fc5e08d4035a4caeef15de33c45758863d9157cb\classes.dex" />
     </item>
     <item
-        jar="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jar="C:\Users\GTA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_38cb6271317296072860735b0c850a5fa947f74f\classes.dex" />
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.0_3a6de0def1c86ef0eac8fb0f4f5ab808eb166064\classes.dex" />
     </item>
     <item
-        jar="C:\Users\GTA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\GTA\Desktop\NCU_lib-ISBN-Search1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_a3b96b7580c7a068b626600943ce4769fd57e9cc\classes.dex" />
+        sha1="65f20ae055ce6334d803471ec2d6d03e3027d9b9">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ff4a75df879b89ee8365232dc1ab219d4cc8e83c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="12f0b6947b903f1f07f5548c650ed8150de71404">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_74bcf97876e632e0e71677d696b0e6cde32d7bb0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_88c6004666b79509932acef352bc8a1a0cccdfde\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.0_0072bafbba3873feab75b2041daa23e9a2aa08c9\classes.dex" />
     </item>
 
 </items>

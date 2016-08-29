@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

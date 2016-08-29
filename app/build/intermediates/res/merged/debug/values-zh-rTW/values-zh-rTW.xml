@@ -57,4 +57,8 @@
     <string name="title_requested">預約書目</string>
     <string name="title_search">館藏目錄</string>
     <string name="version">版本項</string>
+    <string name="zxing_app_name">條碼掃描器</string>
+    <string name="zxing_button_ok">確定</string>
+    <string name="zxing_msg_camera_framework_bug">很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。</string>
+    <string name="zxing_msg_default_status">將條碼置於鏡頭範圍內以進行掃描。</string>
 </resources>

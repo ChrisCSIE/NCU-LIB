@@ -1,66 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black.xml",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\btn_black.xml"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\serachp.jpg",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\serachp.jpg"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\button_selector.xml"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\requested.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\requested.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_refresh.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\ic_action_refresh.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\borrowed.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\borrowed.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\search.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_rotating_image.xml",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\custom_rotating_image.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_select_all.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\ic_action_select_all.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_refresh.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\ic_action_refresh.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\icon.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_style.xml",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\edittext_style.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notice.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\notice.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\button_selector.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_book.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\new_book.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_unselect_all.jpg",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\ic_action_unselect_all.jpg"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black.xml",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\btn_black.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\news.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\news.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_unselect_all.jpg",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\ic_action_unselect_all.jpg"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\borrowed.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\borrowed.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_select_all.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\ic_action_select_all.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_style.xml",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\edittext_style.xml"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_book.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\new_book.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\serachp.jpg",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\serachp.jpg"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opening_hours.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\opening_hours.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\requested.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\requested.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\news.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\news.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opening_hours.png",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\opening_hours.png"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notice.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\notice.png"
     },
     {
-        "merged": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_rotating_image.xml",
-        "source": "C:\\Users\\GTA\\Desktop\\NCU_lib-ISBN-Search1\\app\\src\\main\\res\\drawable\\custom_rotating_image.xml"
+        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
+        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\drawable\\search.png"
     }
 ]

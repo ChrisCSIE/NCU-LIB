@@ -9,14 +9,104 @@ package ncu.lib;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_framing_rect_height=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_framing_rect_width=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_possible_result_points=0x7f010004;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>centerCrop</code></td><td>1</td><td></td></tr>
+<tr><td><code>fitCenter</code></td><td>2</td><td></td></tr>
+<tr><td><code>fitXY</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int zxing_preview_scaling_strategy=0x7f010003;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_result_view=0x7f010005;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int zxing_scanner_layout=0x7f010008;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_use_texture_view=0x7f010002;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_viewfinder_laser=0x7f010006;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zxing_viewfinder_mask=0x7f010007;
     }
     public static final class color {
-        public static final int button=0x7f070000;
-        public static final int not_requestable=0x7f070001;
+        public static final int button=0x7f080000;
+        public static final int not_requestable=0x7f080001;
+        public static final int zxing_custom_possible_result_points=0x7f080002;
+        public static final int zxing_custom_result_view=0x7f080003;
+        public static final int zxing_custom_viewfinder_laser=0x7f080004;
+        public static final int zxing_custom_viewfinder_mask=0x7f080005;
+        public static final int zxing_possible_result_points=0x7f080006;
+        public static final int zxing_result_view=0x7f080007;
+        public static final int zxing_status_text=0x7f080008;
+        public static final int zxing_transparent=0x7f080009;
+        public static final int zxing_viewfinder_laser=0x7f08000a;
+        public static final int zxing_viewfinder_mask=0x7f08000b;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f070000;
+        public static final int activity_vertical_margin=0x7f070001;
     }
     public static final class drawable {
         public static final int actionbar_background=0x7f020020;
@@ -61,60 +151,74 @@ public final class R {
         public static final int word=0x7f020027;
     }
     public static final class id {
-        public static final int ISBNsearch_button=0x7f090022;
-        public static final int account=0x7f09000c;
-        public static final int accountLinearLayout=0x7f09000b;
-        public static final int action_settings=0x7f09002f;
-        public static final int autoLogin=0x7f09000f;
-        public static final int bookListView=0x7f090025;
-        public static final int book_detail_listview=0x7f090002;
-        public static final int book_request_listview=0x7f090018;
-        public static final int borrowed_listview=0x7f090005;
-        public static final int borrowed_loading=0x7f090003;
-        public static final int borrowed_refresh=0x7f090032;
-        public static final int borrowed_select_all=0x7f090030;
-        public static final int borrowed_unselect_all=0x7f090031;
-        public static final int cancel_requested_button=0x7f09001e;
-        public static final int clean=0x7f090011;
-        public static final int componentLayout=0x7f09000a;
-        public static final int empty=0x7f090014;
-        public static final int extend_borrowed_button=0x7f090006;
-        public static final int infomationPanel=0x7f090024;
-        public static final int item_entry_content=0x7f09002a;
-        public static final int item_entry_title=0x7f090029;
-        public static final int item_section_header=0x7f09002d;
-        public static final int keyword=0x7f090020;
-        public static final int list_newbooks=0x7f090013;
-        public static final int list_news_title=0x7f090016;
-        public static final int loadingPanel=0x7f090023;
-        public static final int loadingPanel2=0x7f090000;
-        public static final int login=0x7f090010;
-        public static final int loginLayout=0x7f090007;
-        public static final int newbooks_loading=0x7f090012;
-        public static final int news_loading=0x7f090015;
-        public static final int next=0x7f090027;
-        public static final int no_borrowed=0x7f090004;
-        public static final int no_requested=0x7f09001c;
-        public static final int prev=0x7f090026;
-        public static final int pwd=0x7f09000e;
-        public static final int pwdLinearLayout=0x7f09000d;
-        public static final int request_book_button=0x7f090028;
-        public static final int request_button=0x7f090001;
-        public static final int request_loading=0x7f090017;
-        public static final int requested_item=0x7f09002b;
-        public static final int requested_item_status=0x7f09002c;
-        public static final int requested_listview=0x7f09001d;
-        public static final int requested_loading=0x7f09001b;
-        public static final int requested_refresh=0x7f090035;
-        public static final int requested_select_all=0x7f090033;
-        public static final int requested_unselect_all=0x7f090034;
-        public static final int returnMenu=0x7f090019;
-        public static final int returnSearch=0x7f09001a;
-        public static final int searchLayout=0x7f09001f;
-        public static final int search_button=0x7f090021;
-        public static final int simple_list_text=0x7f09002e;
-        public static final int welcome=0x7f090009;
-        public static final int welcomeLayout=0x7f090008;
+        public static final int ISBNsearch_button=0x7f09002c;
+        public static final int account=0x7f090016;
+        public static final int accountLinearLayout=0x7f090015;
+        public static final int action_settings=0x7f09003d;
+        public static final int autoLogin=0x7f090019;
+        public static final int bookListView=0x7f09002f;
+        public static final int book_detail_listview=0x7f09000c;
+        public static final int book_request_listview=0x7f090022;
+        public static final int borrowed_listview=0x7f09000f;
+        public static final int borrowed_loading=0x7f09000d;
+        public static final int borrowed_refresh=0x7f090040;
+        public static final int borrowed_select_all=0x7f09003e;
+        public static final int borrowed_unselect_all=0x7f09003f;
+        public static final int cancel_requested_button=0x7f090028;
+        public static final int centerCrop=0x7f090007;
+        public static final int clean=0x7f09001b;
+        public static final int componentLayout=0x7f090014;
+        public static final int empty=0x7f09001e;
+        public static final int extend_borrowed_button=0x7f090010;
+        public static final int fitCenter=0x7f090008;
+        public static final int fitXY=0x7f090009;
+        public static final int infomationPanel=0x7f09002e;
+        public static final int item_entry_content=0x7f090034;
+        public static final int item_entry_title=0x7f090033;
+        public static final int item_section_header=0x7f090037;
+        public static final int keyword=0x7f09002a;
+        public static final int list_newbooks=0x7f09001d;
+        public static final int list_news_title=0x7f090020;
+        public static final int loadingPanel=0x7f09002d;
+        public static final int loadingPanel2=0x7f09000a;
+        public static final int login=0x7f09001a;
+        public static final int loginLayout=0x7f090011;
+        public static final int newbooks_loading=0x7f09001c;
+        public static final int news_loading=0x7f09001f;
+        public static final int next=0x7f090031;
+        public static final int no_borrowed=0x7f09000e;
+        public static final int no_requested=0x7f090026;
+        public static final int prev=0x7f090030;
+        public static final int pwd=0x7f090018;
+        public static final int pwdLinearLayout=0x7f090017;
+        public static final int request_book_button=0x7f090032;
+        public static final int request_button=0x7f09000b;
+        public static final int request_loading=0x7f090021;
+        public static final int requested_item=0x7f090035;
+        public static final int requested_item_status=0x7f090036;
+        public static final int requested_listview=0x7f090027;
+        public static final int requested_loading=0x7f090025;
+        public static final int requested_refresh=0x7f090043;
+        public static final int requested_select_all=0x7f090041;
+        public static final int requested_unselect_all=0x7f090042;
+        public static final int returnMenu=0x7f090023;
+        public static final int returnSearch=0x7f090024;
+        public static final int searchLayout=0x7f090029;
+        public static final int search_button=0x7f09002b;
+        public static final int simple_list_text=0x7f090038;
+        public static final int welcome=0x7f090013;
+        public static final int welcomeLayout=0x7f090012;
+        public static final int zxing_back_button=0x7f090000;
+        public static final int zxing_barcode_scanner=0x7f09003c;
+        public static final int zxing_barcode_surface=0x7f090039;
+        public static final int zxing_camera_error=0x7f090001;
+        public static final int zxing_decode=0x7f090002;
+        public static final int zxing_decode_failed=0x7f090003;
+        public static final int zxing_decode_succeeded=0x7f090004;
+        public static final int zxing_possible_result_points=0x7f090005;
+        public static final int zxing_prewiew_size_ready=0x7f090006;
+        public static final int zxing_status_view=0x7f09003b;
+        public static final int zxing_viewfinder_view=0x7f09003a;
     }
     public static final class layout {
         public static final int activity_book_detail=0x7f030000;
@@ -132,73 +236,82 @@ public final class R {
         public static final int item_requested=0x7f03000c;
         public static final int item_section_header=0x7f03000d;
         public static final int simple_list_item=0x7f03000e;
+        public static final int zxing_barcode_scanner=0x7f03000f;
+        public static final int zxing_capture=0x7f030010;
     }
     public static final class menu {
-        public static final int login=0x7f080000;
-        public static final int menu_borrowed=0x7f080001;
-        public static final int menu_requested=0x7f080002;
-        public static final int request_book=0x7f080003;
+        public static final int login=0x7f0a0000;
+        public static final int menu_borrowed=0x7f0a0001;
+        public static final int menu_requested=0x7f0a0002;
+        public static final int request_book=0x7f0a0003;
+    }
+    public static final class raw {
+        public static final int zxing_beep=0x7f040000;
     }
     public static final class string {
-        public static final int ISBNsearch_button=0x7f060000;
-        public static final int account=0x7f060001;
-        public static final int action_settings=0x7f060002;
-        public static final int app_name=0x7f060003;
-        public static final int barcode=0x7f060004;
-        public static final int book_detail=0x7f060005;
-        public static final int bookname=0x7f060006;
-        public static final int button_cancel_request=0x7f060007;
-        public static final int button_extend_borrowed=0x7f060008;
-        public static final int callnumber=0x7f060009;
-        public static final int cancel_request_fail=0x7f06000a;
-        public static final int cancel_request_success=0x7f06000b;
-        public static final int clean=0x7f06000c;
-        public static final int extend_borrowed_fail=0x7f06000d;
-        public static final int extend_borrowed_success=0x7f06000e;
-        public static final int hello_world=0x7f06000f;
-        public static final int imprint=0x7f060010;
-        public static final int isbn=0x7f060011;
-        public static final int link=0x7f060012;
-        public static final int location=0x7f060013;
-        public static final int login=0x7f060014;
-        public static final int logining=0x7f060015;
-        public static final int network_issue=0x7f060016;
-        public static final int next=0x7f060017;
-        public static final int ok=0x7f060018;
-        public static final int password=0x7f060019;
-        public static final int press_back_again=0x7f06001a;
-        public static final int prev=0x7f06001b;
-        public static final int request=0x7f06001c;
-        public static final int request_button=0x7f06001d;
-        public static final int request_result_fail=0x7f06001e;
-        public static final int request_result_success=0x7f06001f;
-        public static final int returnMenu=0x7f060020;
-        public static final int returnSearch=0x7f060021;
-        public static final int save_usr_pwd=0x7f060022;
-        public static final int search_button=0x7f060023;
-        public static final int search_hint=0x7f060024;
-        public static final int status=0x7f060025;
-        public static final int text_no_borrowed=0x7f060026;
-        public static final int text_no_requested=0x7f060027;
-        public static final int text_refresh=0x7f060028;
-        public static final int text_select_all=0x7f060029;
-        public static final int text_unselect_all=0x7f06002a;
-        public static final int title_activity_book_detail=0x7f06002b;
-        public static final int title_activity_borrowed=0x7f06002c;
-        public static final int title_activity_main_menu_view=0x7f060039;
-        public static final int title_activity_menu=0x7f06003a;
-        public static final int title_activity_new_books_list=0x7f06002d;
-        public static final int title_activity_news=0x7f06002e;
-        public static final int title_activity_request_book=0x7f06002f;
-        public static final int title_activity_requested=0x7f060030;
-        public static final int title_activity_search=0x7f060031;
-        public static final int title_borrowed=0x7f060032;
-        public static final int title_newbooks=0x7f060033;
-        public static final int title_news=0x7f060034;
-        public static final int title_notice=0x7f060035;
-        public static final int title_requested=0x7f060036;
-        public static final int title_search=0x7f060037;
-        public static final int version=0x7f060038;
+        public static final int ISBNsearch_button=0x7f050004;
+        public static final int account=0x7f050005;
+        public static final int action_settings=0x7f050006;
+        public static final int app_name=0x7f050007;
+        public static final int barcode=0x7f050008;
+        public static final int book_detail=0x7f050009;
+        public static final int bookname=0x7f05000a;
+        public static final int button_cancel_request=0x7f05000b;
+        public static final int button_extend_borrowed=0x7f05000c;
+        public static final int callnumber=0x7f05000d;
+        public static final int cancel_request_fail=0x7f05000e;
+        public static final int cancel_request_success=0x7f05000f;
+        public static final int clean=0x7f050010;
+        public static final int extend_borrowed_fail=0x7f050011;
+        public static final int extend_borrowed_success=0x7f050012;
+        public static final int hello_world=0x7f050013;
+        public static final int imprint=0x7f050014;
+        public static final int isbn=0x7f050015;
+        public static final int link=0x7f050016;
+        public static final int location=0x7f050017;
+        public static final int login=0x7f050018;
+        public static final int logining=0x7f050019;
+        public static final int network_issue=0x7f05001a;
+        public static final int next=0x7f05001b;
+        public static final int ok=0x7f05001c;
+        public static final int password=0x7f05001d;
+        public static final int press_back_again=0x7f05001e;
+        public static final int prev=0x7f05001f;
+        public static final int request=0x7f050020;
+        public static final int request_button=0x7f050021;
+        public static final int request_result_fail=0x7f050022;
+        public static final int request_result_success=0x7f050023;
+        public static final int returnMenu=0x7f050024;
+        public static final int returnSearch=0x7f050025;
+        public static final int save_usr_pwd=0x7f050026;
+        public static final int search_button=0x7f050027;
+        public static final int search_hint=0x7f050028;
+        public static final int status=0x7f050029;
+        public static final int text_no_borrowed=0x7f05002a;
+        public static final int text_no_requested=0x7f05002b;
+        public static final int text_refresh=0x7f05002c;
+        public static final int text_select_all=0x7f05002d;
+        public static final int text_unselect_all=0x7f05002e;
+        public static final int title_activity_book_detail=0x7f05002f;
+        public static final int title_activity_borrowed=0x7f050030;
+        public static final int title_activity_main_menu_view=0x7f05003d;
+        public static final int title_activity_menu=0x7f05003e;
+        public static final int title_activity_new_books_list=0x7f050031;
+        public static final int title_activity_news=0x7f050032;
+        public static final int title_activity_request_book=0x7f050033;
+        public static final int title_activity_requested=0x7f050034;
+        public static final int title_activity_search=0x7f050035;
+        public static final int title_borrowed=0x7f050036;
+        public static final int title_newbooks=0x7f050037;
+        public static final int title_news=0x7f050038;
+        public static final int title_notice=0x7f050039;
+        public static final int title_requested=0x7f05003a;
+        public static final int title_search=0x7f05003b;
+        public static final int version=0x7f05003c;
+        public static final int zxing_app_name=0x7f050000;
+        public static final int zxing_button_ok=0x7f050001;
+        public static final int zxing_msg_camera_framework_bug=0x7f050002;
+        public static final int zxing_msg_default_status=0x7f050003;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -209,12 +322,200 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
-        public static final int CustomActionBarTheme=0x7f040002;
-        public static final int MyActionBar=0x7f040003;
-        public static final int RobotoButtonStyle=0x7f040004;
+        public static final int AppTheme=0x7f060002;
+        public static final int CustomActionBarTheme=0x7f060003;
+        public static final int MyActionBar=0x7f060004;
+        public static final int RobotoButtonStyle=0x7f060005;
+        public static final int zxing_CaptureTheme=0x7f060001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a zxing_camera_preview.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #zxing_camera_preview_zxing_framing_rect_height ncu.lib:zxing_framing_rect_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #zxing_camera_preview_zxing_framing_rect_width ncu.lib:zxing_framing_rect_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #zxing_camera_preview_zxing_preview_scaling_strategy ncu.lib:zxing_preview_scaling_strategy}</code></td><td></td></tr>
+           <tr><td><code>{@link #zxing_camera_preview_zxing_use_texture_view ncu.lib:zxing_use_texture_view}</code></td><td></td></tr>
+           </table>
+           @see #zxing_camera_preview_zxing_framing_rect_height
+           @see #zxing_camera_preview_zxing_framing_rect_width
+           @see #zxing_camera_preview_zxing_preview_scaling_strategy
+           @see #zxing_camera_preview_zxing_use_texture_view
+         */
+        public static final int[] zxing_camera_preview = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_framing_rect_height}
+          attribute's value can be found in the {@link #zxing_camera_preview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_framing_rect_height
+        */
+        public static final int zxing_camera_preview_zxing_framing_rect_height = 1;
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_framing_rect_width}
+          attribute's value can be found in the {@link #zxing_camera_preview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_framing_rect_width
+        */
+        public static final int zxing_camera_preview_zxing_framing_rect_width = 0;
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_preview_scaling_strategy}
+          attribute's value can be found in the {@link #zxing_camera_preview} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>centerCrop</code></td><td>1</td><td></td></tr>
+<tr><td><code>fitCenter</code></td><td>2</td><td></td></tr>
+<tr><td><code>fitXY</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name ncu.lib:zxing_preview_scaling_strategy
+        */
+        public static final int zxing_camera_preview_zxing_preview_scaling_strategy = 3;
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_use_texture_view}
+          attribute's value can be found in the {@link #zxing_camera_preview} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_use_texture_view
+        */
+        public static final int zxing_camera_preview_zxing_use_texture_view = 2;
+        /** Attributes that can be used with a zxing_finder.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #zxing_finder_zxing_possible_result_points ncu.lib:zxing_possible_result_points}</code></td><td></td></tr>
+           <tr><td><code>{@link #zxing_finder_zxing_result_view ncu.lib:zxing_result_view}</code></td><td></td></tr>
+           <tr><td><code>{@link #zxing_finder_zxing_viewfinder_laser ncu.lib:zxing_viewfinder_laser}</code></td><td></td></tr>
+           <tr><td><code>{@link #zxing_finder_zxing_viewfinder_mask ncu.lib:zxing_viewfinder_mask}</code></td><td></td></tr>
+           </table>
+           @see #zxing_finder_zxing_possible_result_points
+           @see #zxing_finder_zxing_result_view
+           @see #zxing_finder_zxing_viewfinder_laser
+           @see #zxing_finder_zxing_viewfinder_mask
+         */
+        public static final int[] zxing_finder = {
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_possible_result_points}
+          attribute's value can be found in the {@link #zxing_finder} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_possible_result_points
+        */
+        public static final int zxing_finder_zxing_possible_result_points = 0;
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_result_view}
+          attribute's value can be found in the {@link #zxing_finder} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_result_view
+        */
+        public static final int zxing_finder_zxing_result_view = 1;
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_viewfinder_laser}
+          attribute's value can be found in the {@link #zxing_finder} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_viewfinder_laser
+        */
+        public static final int zxing_finder_zxing_viewfinder_laser = 2;
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_viewfinder_mask}
+          attribute's value can be found in the {@link #zxing_finder} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name ncu.lib:zxing_viewfinder_mask
+        */
+        public static final int zxing_finder_zxing_viewfinder_mask = 3;
+        /** Attributes that can be used with a zxing_view.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #zxing_view_zxing_scanner_layout ncu.lib:zxing_scanner_layout}</code></td><td></td></tr>
+           </table>
+           @see #zxing_view_zxing_scanner_layout
+         */
+        public static final int[] zxing_view = {
+            0x7f010008
+        };
+        /**
+          <p>This symbol is the offset where the {@link ncu.lib.R.attr#zxing_scanner_layout}
+          attribute's value can be found in the {@link #zxing_view} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name ncu.lib:zxing_scanner_layout
+        */
+        public static final int zxing_view_zxing_scanner_layout = 0;
+    };
 }

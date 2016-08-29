@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import ncu.lib.R;
 import ncu.lib.library.VolleyProvider;
 import ncu.lib.util.SearchBookAdapter;
-import ncu.lib.zxing.integration.android.IntentIntegrator;
-import ncu.lib.zxing.integration.android.IntentResult;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -43,6 +41,8 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 
 public class SearchActivity extends Activity {
 	private EditText keyword;
@@ -172,7 +172,8 @@ public class SearchActivity extends Activity {
 			imm.hideSoftInputFromWindow(searchButton.getWindowToken(), 0);
 			
 			integrator = new IntentIntegrator(SearchActivity.this);//指定當前的Activity
-			integrator.initiateScan(IntentIntegrator.ONE_D_CODE_TYPES); //啟動掃描器
+            integrator.setOrientationLocked(false);
+			integrator.initiateScan(); //啟動掃描器
 		}
 	};
 	
