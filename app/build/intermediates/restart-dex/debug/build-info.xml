@@ -4,27 +4,27 @@
     api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="262347021111667"
+    timestamp="548073550018376"
     token="8462501586243442248" >
 
     <task
         name="javac"
-        duration="1086" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="296" />
+        duration="0" />
     <task
         name="verifier"
-        duration="65" />
+        duration="0" />
 
     <artifact
         location="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="262347021111667" >
+    <build timestamp="548073550018376" >
         <artifact
             location="C:\Users\GTA\Documents\GitHub\NCU-LIB\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
