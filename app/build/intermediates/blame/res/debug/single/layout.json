@@ -1,70 +1,82 @@
 [
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_requested.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\item_requested.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_news.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_news.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.3.0\\res\\layout\\zxing_barcode_scanner.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_book_detail.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_book_detail.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_book_detail.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_book_detail.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/bookname.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/bookname.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.3.0\\res\\layout\\zxing_capture.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/button_item_entry.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/button_item_entry.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_menu.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_menu.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\button_item_entry.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\button_item_entry.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_menu_view.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_main_menu_view.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_main_menu_view.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_main_menu_view.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_search.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_list_item.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\simple_list_item.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/zxing_barcode_scanner.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.3.0/res/layout/zxing_barcode_scanner.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_requested.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_requested.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/item_requested.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/item_requested.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_news.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/zxing_capture.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.3.0/res/layout/zxing_capture.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_section_header.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\item_section_header.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/item_listview.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/item_listview.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_entry.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\item_entry.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_borrowed.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_borrowed.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_search.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_requested.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_requested.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_books_list.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_new_books_list.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/item_entry.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/item_entry.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_borrowed.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_borrowed.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/item_section_header.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/item_section_header.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_request_book.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\layout\\activity_request_book.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/simple_list_item.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/simple_list_item.xml"
+    },
+    {
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_scan.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_scan.xml"
+    },
+    {
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_new_books_list.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_new_books_list.xml"
+    },
+    {
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/layout/activity_request_book.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/layout/activity_request_book.xml"
     }
 ]

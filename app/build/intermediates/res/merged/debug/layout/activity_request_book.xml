@@ -37,7 +37,8 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:paddingLeft="10sp"
         android:paddingRight="10sp"
-        android:text="@string/returnMenu" />
+        android:text="@string/returnMenu"
+        android:textSize="20dp" />
     <!-- 
         android:layout_marginLeft="46dp" -->
 
@@ -53,7 +54,8 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:paddingLeft="10sp"
         android:paddingRight="10sp"
-        android:text="@string/returnSearch" />
+        android:text="@string/returnSearch"
+        android:textSize="20dp" />
     <!-- 
         android:layout_marginRight="70dp" -->
 

@@ -7,6 +7,7 @@ import ncu.lib.util.BookDetailAdapter;
 import ncu.lib.library.VolleyProvider;
 import ncu.lib.util.EntryItem;
 import ncu.lib.util.Item;
+import ncu.lib.util.ListviewItem;
 import ncu.lib.util.SectionItem;
 
 //import org.apache.commons.lang3.StringEscapeUtils;
@@ -44,7 +45,8 @@ public class BookDetailActivity extends Activity {
 
     private ListView mDetailListView;
     private Button button;
-    private ArrayList<Item> mDetailList;
+//    private ArrayList<Item> mDetailList;
+    private ArrayList<ListviewItem> mDetailList;
     private BookDetailAdapter mAdapter;
     
     private ArrayList<String> mDetail;
@@ -63,7 +65,8 @@ public class BookDetailActivity extends Activity {
 //        String bookName = getIntent().getStringExtra("bookName");
 
         mDetailListView = (ListView) findViewById(R.id.book_detail_listview);
-        mDetailList = new ArrayList<Item>();
+//        mDetailList = new ArrayList<Item>();
+        mDetailList = new ArrayList<ListviewItem>();
         mAdapter = new BookDetailAdapter(BookDetailActivity.this, mDetailList);
         mDetailListView.setAdapter(mAdapter);
         
@@ -84,8 +87,8 @@ public class BookDetailActivity extends Activity {
                 try {
                     mDetail = new ArrayList<String>();
 
-                    mBookname = jsonObject.getString("title");
-                    mBookname = CodeConverter(mBookname);
+                    mBookname = CodeConverter(jsonObject.getString("title"));
+                    //mBookname = CodeConverter(mBookname);
                     mRequest = jsonObject.optString("request");
                     mISBN = jsonObject.optString("isbn");
                     mImprint = jsonObject.optString("imprint");
@@ -112,31 +115,44 @@ public class BookDetailActivity extends Activity {
                     Button button = (Button) findViewById(R.id.request_button);
 
                     if (!mBookname.equalsIgnoreCase("")) {
-                        mDetailList.add(new SectionItem(getString(R.string.bookname)));
-                        mDetailList.add(new EntryItem(mBookname));
+//                        mDetailList.add(new SectionItem(getString(R.string.bookname)));
+//                        mDetailList.add(new EntryItem(mBookname));
+                        mDetailList.add(new ListviewItem(getString(R.string.bookname), mBookname));
                     }
 
                     if (!mISBN.equalsIgnoreCase("")) {
-                        mDetailList.add(new SectionItem(getString(R.string.isbn)));
-                        mDetailList.add(new EntryItem(mISBN));
+//                        mDetailList.add(new SectionItem(getString(R.string.isbn)));
+//                        mDetailList.add(new EntryItem(mISBN));
+                        mDetailList.add(new ListviewItem(getString(R.string.isbn), mISBN));
                     }
 
                     if (!mImprint.equalsIgnoreCase("")) {
-                        mDetailList.add(new SectionItem(getString(R.string.imprint)));
-                        mDetailList.add(new EntryItem(mImprint));
+//                        mDetailList.add(new SectionItem(getString(R.string.imprint)));
+//                        mDetailList.add(new EntryItem(mImprint));
+                        mDetailList.add(new ListviewItem(getString(R.string.imprint), mImprint));
                     }
 
                     if (!mVersion.equalsIgnoreCase("")) {
-                        mDetailList.add(new SectionItem(getString(R.string.version)));
-                        mDetailList.add(new EntryItem(mVersion));
+//                        mDetailList.add(new SectionItem(getString(R.string.version)));
+//                        mDetailList.add(new EntryItem(mVersion));
+                        mDetailList.add(new ListviewItem(getString(R.string.version), mVersion));
                     }
 
                     if (mDetail.size() != 0) {
-                        mDetailList.add(new SectionItem(getString(R.string.book_detail)));
+                        String section = getString(R.string.book_detail);
+                        StringBuffer content = new StringBuffer();
                         for (String tmp : mDetail) {
-                            mDetailList.add(new EntryItem(tmp));
+                            content.append(tmp+"\n");
                         }
+                        mDetailList.add(new ListviewItem(section, content.toString()));
                     }
+
+//                    if (mDetail.size() != 0) {
+//                        mDetailList.add(new SectionItem(getString(R.string.book_detail)));
+//                        for (String tmp : mDetail) {
+//                            mDetailList.add(new EntryItem(tmp));
+//                        }
+//                    }
 
                     if (!mLink.equalsIgnoreCase("")) {
                         button.setText(getString(R.string.link));
@@ -165,7 +181,7 @@ public class BookDetailActivity extends Activity {
                                 intent .setClass(BookDetailActivity.this, RequestBookActivity.class);
                                 intent.putExtra("request", mRequest);
                                 startActivity(intent);
-                                finish();
+                                //finish();
                             }
                         });
                     }
@@ -254,6 +270,8 @@ public class BookDetailActivity extends Activity {
 
         mQueue.add(jsonObjectRequest);
 	}
+
+    // ??HTML??
 	String CodeConverter(String s) {
 //		Log.d("escapeHtml3", StringEscapeUtils.escapeHtml3(s));
 //		Log.d("escapeHtml4", StringEscapeUtils.escapeHtml4(s));

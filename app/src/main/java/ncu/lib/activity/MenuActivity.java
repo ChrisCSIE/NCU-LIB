@@ -22,13 +22,13 @@ public class MenuActivity extends Activity {
 		// setContentView(R.layout.activity_menu);
 //		Drawable title = getResources().getDrawable(R.drawable.title);
 //		getActionBar().setBackgroundDrawable(title);
-//		getActionBar().setTitle("國立中央大學圖書館");
+//		getActionBar().setTitle("?????????");
 		getActionBar().hide();
 		setContentView(new MainMenuView(MenuActivity.this));
 	}
-	
-	
-	/* 按兩次退出才結束APP */
+
+
+	/* ????????APP */
 	Timer timerExit = new Timer();
 	TimerTask task = new TimerTask() {
 		@Override
@@ -40,19 +40,19 @@ public class MenuActivity extends Activity {
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		// 判斷是否按下Back
+		// ??????Back
 		if (keyCode == KeyEvent.KEYCODE_BACK) {
-			// 是否要退出
+			// ?????
 			if (isExit == false) {
-				isExit = true; // 記錄下一次要退出
+				isExit = true; // ????????
 				Toast.makeText(this, getResources().getText(R.string.press_back_again), Toast.LENGTH_SHORT).show();
 
-				// 如果超過兩秒則恢復預設值
+				// ????????????
 				if (!hasTask) {
 					timerExit.schedule(task, 2000);
 				}
 			} else {
-				finish(); // 離開程式
+				finish(); // ????
 				System.exit(0);
 			}
 		}

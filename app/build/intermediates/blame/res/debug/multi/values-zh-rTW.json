@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW\\values-zh-rTW.xml",
+        "outputFile": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/values-zh-rTW/values-zh-rTW.xml",
         "map": [
             {
                 "to": {
@@ -11,14 +11,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 970,
-                        "endColumn": 52,
-                        "endOffset": 1018
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 150
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 214,
-                        "endColumn": 46,
-                        "endOffset": 256
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
@@ -49,14 +35,7 @@
                     "endOffset": 197
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 162,
-                        "endColumn": 46,
-                        "endOffset": 204
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
@@ -68,14 +47,7 @@
                     "endOffset": 240
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 114,
-                        "endColumn": 42,
-                        "endOffset": 152
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
@@ -83,416 +55,269 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 245,
-                    "endColumn": 38,
-                    "endOffset": 279
+                    "endColumn": 43,
+                    "endOffset": 284
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 1653,
-                        "endColumn": 38,
-                        "endOffset": 1687
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 284,
-                    "endColumn": 59,
-                    "endOffset": 339
+                    "startOffset": 289,
+                    "endColumn": 38,
+                    "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 1320,
-                        "endColumn": 59,
-                        "endOffset": 1375
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 344,
-                    "endColumn": 39,
-                    "endOffset": 379
+                    "startOffset": 328,
+                    "endColumn": 59,
+                    "endOffset": 383
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 1162,
-                        "endColumn": 39,
-                        "endOffset": 1197
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 384,
-                    "endColumn": 56,
-                    "endOffset": 436
+                    "startOffset": 388,
+                    "endColumn": 39,
+                    "endOffset": 423
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 54,
-                        "startColumn": 4,
-                        "startOffset": 2116,
-                        "endColumn": 56,
-                        "endOffset": 2168
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 441,
-                    "endColumn": 57,
-                    "endOffset": 494
+                    "startOffset": 428,
+                    "endColumn": 56,
+                    "endOffset": 480
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 60,
-                        "startColumn": 4,
-                        "startOffset": 2409,
-                        "endColumn": 57,
-                        "endOffset": 2462
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 499,
-                    "endColumn": 42,
-                    "endOffset": 537
+                    "startOffset": 485,
+                    "endColumn": 57,
+                    "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 41,
-                        "startColumn": 4,
-                        "startOffset": 1531,
-                        "endColumn": 42,
-                        "endOffset": 1569
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 542,
-                    "endColumn": 60,
-                    "endOffset": 598
+                    "startOffset": 543,
+                    "endColumn": 42,
+                    "endOffset": 581
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 2230,
-                        "endColumn": 60,
-                        "endOffset": 2286
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 603,
-                    "endColumn": 56,
-                    "endOffset": 655
+                    "startOffset": 586,
+                    "endColumn": 60,
+                    "endOffset": 642
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 55,
-                        "startColumn": 4,
-                        "startOffset": 2173,
-                        "endColumn": 56,
-                        "endOffset": 2225
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 660,
-                    "endColumn": 36,
-                    "endOffset": 692
+                    "startOffset": 647,
+                    "endColumn": 56,
+                    "endOffset": 699
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 443,
-                        "endColumn": 36,
-                        "endOffset": 475
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 697,
-                    "endColumn": 59,
-                    "endOffset": 752
+                    "startOffset": 704,
+                    "endColumn": 36,
+                    "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 62,
-                        "startColumn": 4,
-                        "startOffset": 2525,
-                        "endColumn": 59,
-                        "endOffset": 2580
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 757,
-                    "endColumn": 57,
-                    "endOffset": 810
+                    "startOffset": 741,
+                    "endColumn": 59,
+                    "endOffset": 796
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 61,
-                        "startColumn": 4,
-                        "startOffset": 2467,
-                        "endColumn": 57,
-                        "endOffset": 2520
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 815,
-                    "endColumn": 52,
-                    "endOffset": 863
+                    "startOffset": 801,
+                    "endColumn": 57,
+                    "endOffset": 854
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 52,
-                        "endOffset": 104
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 868,
-                    "endColumn": 39,
-                    "endOffset": 903
+                    "startOffset": 859,
+                    "endColumn": 52,
+                    "endOffset": 907
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 34,
-                        "startColumn": 4,
-                        "startOffset": 1240,
-                        "endColumn": 39,
-                        "endOffset": 1275
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 908,
-                    "endColumn": 37,
-                    "endOffset": 941
+                    "startOffset": 912,
+                    "endColumn": 39,
+                    "endOffset": 947
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 33,
-                        "startColumn": 4,
-                        "startOffset": 1202,
-                        "endColumn": 37,
-                        "endOffset": 1235
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 946,
-                    "endColumn": 38,
-                    "endOffset": 980
+                    "startOffset": 952,
+                    "endColumn": 37,
+                    "endOffset": 985
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 1380,
-                        "endColumn": 38,
-                        "endOffset": 1414
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 985,
-                    "endColumn": 40,
-                    "endOffset": 1021
+                    "startOffset": 990,
+                    "endColumn": 38,
+                    "endOffset": 1024
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 42,
-                        "startColumn": 4,
-                        "startOffset": 1574,
-                        "endColumn": 40,
-                        "endOffset": 1610
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1026,
-                    "endColumn": 36,
-                    "endOffset": 1058
+                    "startOffset": 1029,
+                    "endColumn": 40,
+                    "endOffset": 1065
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 406,
-                        "endColumn": 36,
-                        "endOffset": 438
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1063,
-                    "endColumn": 46,
-                    "endOffset": 1105
+                    "startOffset": 1070,
+                    "endColumn": 36,
+                    "endOffset": 1102
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 480,
-                        "endColumn": 46,
-                        "endOffset": 522
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1110,
-                    "endColumn": 48,
-                    "endOffset": 1154
+                    "startOffset": 1107,
+                    "endColumn": 46,
+                    "endOffset": 1149
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 357,
-                        "endColumn": 48,
-                        "endOffset": 401
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1159,
-                    "endColumn": 36,
-                    "endOffset": 1191
+                    "startOffset": 1154,
+                    "endColumn": 48,
+                    "endOffset": 1198
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 1060,
-                        "endColumn": 36,
-                        "endOffset": 1092
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1196,
-                    "endColumn": 33,
-                    "endOffset": 1225
+                    "startOffset": 1203,
+                    "endColumn": 36,
+                    "endOffset": 1235
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 48,
-                        "startColumn": 4,
-                        "startOffset": 1869,
-                        "endColumn": 33,
-                        "endOffset": 1898
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1230,
-                    "endColumn": 47,
-                    "endOffset": 1273
+                    "startOffset": 1240,
+                    "endColumn": 53,
+                    "endOffset": 1289
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 59,
                         "startColumn": 4,
-                        "startOffset": 261,
-                        "endColumn": 47,
-                        "endOffset": 304
+                        "startOffset": 2382,
+                        "endColumn": 53,
+                        "endOffset": 2431
                     }
                 }
             },
@@ -500,247 +325,156 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1278,
-                    "endColumn": 58,
-                    "endOffset": 1332
+                    "startOffset": 1294,
+                    "endColumn": 46,
+                    "endOffset": 1336
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 72,
-                        "startColumn": 4,
-                        "startOffset": 2867,
-                        "endColumn": 58,
-                        "endOffset": 2921
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1337,
-                    "endColumn": 36,
-                    "endOffset": 1369
+                    "startOffset": 1341,
+                    "endColumn": 33,
+                    "endOffset": 1370
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1023,
-                        "endColumn": 36,
-                        "endOffset": 1055
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1374,
-                    "endColumn": 42,
-                    "endOffset": 1412
+                    "startOffset": 1375,
+                    "endColumn": 47,
+                    "endOffset": 1418
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 45,
-                        "startColumn": 4,
-                        "startOffset": 1692,
-                        "endColumn": 42,
-                        "endOffset": 1730
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1417,
-                    "endColumn": 45,
-                    "endOffset": 1458
+                    "startOffset": 1423,
+                    "endColumn": 58,
+                    "endOffset": 1477
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 38,
-                        "startColumn": 4,
-                        "startOffset": 1419,
-                        "endColumn": 45,
-                        "endOffset": 1460
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1463,
-                    "endColumn": 58,
-                    "endOffset": 1517
+                    "startOffset": 1482,
+                    "endColumn": 36,
+                    "endOffset": 1514
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 47,
-                        "startColumn": 4,
-                        "startOffset": 1810,
-                        "endColumn": 58,
-                        "endOffset": 1864
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1522,
-                    "endColumn": 74,
-                    "endOffset": 1592
+                    "startOffset": 1519,
+                    "endColumn": 42,
+                    "endOffset": 1557
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 46,
-                        "startColumn": 4,
-                        "startOffset": 1735,
-                        "endColumn": 74,
-                        "endOffset": 1805
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1597,
-                    "endColumn": 44,
-                    "endOffset": 1637
+                    "startOffset": 1562,
+                    "endColumn": 45,
+                    "endOffset": 1603
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 49,
-                        "startColumn": 4,
-                        "startOffset": 1903,
-                        "endColumn": 44,
-                        "endOffset": 1943
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1642,
-                    "endColumn": 47,
-                    "endOffset": 1685
+                    "startOffset": 1608,
+                    "endColumn": 58,
+                    "endOffset": 1662
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 50,
-                        "startColumn": 4,
-                        "startOffset": 1948,
-                        "endColumn": 47,
-                        "endOffset": 1991
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1690,
-                    "endColumn": 47,
-                    "endOffset": 1733
+                    "startOffset": 1667,
+                    "endColumn": 74,
+                    "endOffset": 1737
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 309,
-                        "endColumn": 47,
-                        "endOffset": 352
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1738,
+                    "startOffset": 1742,
                     "endColumn": 44,
-                    "endOffset": 1778
+                    "endOffset": 1782
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 925,
-                        "endColumn": 44,
-                        "endOffset": 965
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1783,
-                    "endColumn": 50,
-                    "endOffset": 1829
+                    "startOffset": 1787,
+                    "endColumn": 47,
+                    "endOffset": 1830
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 874,
-                        "endColumn": 50,
-                        "endOffset": 920
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1834,
-                    "endColumn": 37,
-                    "endOffset": 1867
+                    "startOffset": 1835,
+                    "endColumn": 47,
+                    "endOffset": 1878
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 43,
-                        "startColumn": 4,
-                        "startOffset": 1615,
-                        "endColumn": 37,
-                        "endOffset": 1648
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 1872,
-                    "endColumn": 55,
+                    "startOffset": 1883,
+                    "endColumn": 44,
                     "endOffset": 1923
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 59,
-                        "startColumn": 4,
-                        "startOffset": 2353,
-                        "endColumn": 55,
-                        "endOffset": 2404
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
@@ -748,417 +482,299 @@
                     "startLine": 41,
                     "startColumn": 4,
                     "startOffset": 1928,
-                    "endColumn": 56,
-                    "endOffset": 1980
+                    "endColumn": 50,
+                    "endOffset": 1974
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 53,
-                        "startColumn": 4,
-                        "startOffset": 2059,
-                        "endColumn": 56,
-                        "endOffset": 2111
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 1985,
-                    "endColumn": 45,
-                    "endOffset": 2026
+                    "startOffset": 1979,
+                    "endColumn": 37,
+                    "endOffset": 2012
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 70,
-                        "startColumn": 4,
-                        "startOffset": 2816,
-                        "endColumn": 45,
-                        "endOffset": 2857
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2031,
-                    "endColumn": 48,
-                    "endOffset": 2075
+                    "startOffset": 2017,
+                    "endColumn": 55,
+                    "endOffset": 2068
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 68,
-                        "startColumn": 4,
-                        "startOffset": 2716,
-                        "endColumn": 48,
-                        "endOffset": 2760
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2080,
-                    "endColumn": 50,
-                    "endOffset": 2126
+                    "startOffset": 2073,
+                    "endColumn": 56,
+                    "endOffset": 2125
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 69,
-                        "startColumn": 4,
-                        "startOffset": 2765,
-                        "endColumn": 50,
-                        "endOffset": 2811
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2131,
-                    "endColumn": 59,
-                    "endOffset": 2186
+                    "startOffset": 2130,
+                    "endColumn": 45,
+                    "endOffset": 2171
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 1102,
-                        "endColumn": 59,
-                        "endOffset": 1157
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2191,
-                    "endColumn": 56,
-                    "endOffset": 2243
+                    "startOffset": 2176,
+                    "endColumn": 48,
+                    "endOffset": 2220
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 4,
-                        "startOffset": 2296,
-                        "endColumn": 56,
-                        "endOffset": 2348
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2248,
-                    "endColumn": 62,
-                    "endOffset": 2306
+                    "startOffset": 2225,
+                    "endColumn": 50,
+                    "endOffset": 2271
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 66,
-                        "startColumn": 4,
-                        "startOffset": 2648,
-                        "endColumn": 62,
-                        "endOffset": 2706
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 2311,
-                    "endColumn": 52,
-                    "endOffset": 2359
+                    "startOffset": 2276,
+                    "endColumn": 59,
+                    "endOffset": 2331
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 64,
-                        "startColumn": 4,
-                        "startOffset": 2590,
-                        "endColumn": 52,
-                        "endOffset": 2638
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 2364,
-                    "endColumn": 60,
-                    "endOffset": 2420
+                    "startOffset": 2336,
+                    "endColumn": 56,
+                    "endOffset": 2388
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 40,
-                        "startColumn": 4,
-                        "startOffset": 1470,
-                        "endColumn": 60,
-                        "endOffset": 1526
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 2425,
-                    "endColumn": 57,
-                    "endOffset": 2478
+                    "startOffset": 2393,
+                    "endColumn": 62,
+                    "endOffset": 2451
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 52,
-                        "startColumn": 4,
-                        "startOffset": 2001,
-                        "endColumn": 57,
-                        "endOffset": 2054
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2483,
-                    "endColumn": 54,
-                    "endOffset": 2533
+                    "startOffset": 2456,
+                    "endColumn": 52,
+                    "endOffset": 2504
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 819,
-                        "endColumn": 54,
-                        "endOffset": 869
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 2538,
-                    "endColumn": 47,
-                    "endOffset": 2581
+                    "startOffset": 2509,
+                    "endColumn": 60,
+                    "endOffset": 2565
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 578,
-                        "endColumn": 47,
-                        "endOffset": 621
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2586,
-                    "endColumn": 47,
-                    "endOffset": 2629
+                    "startOffset": 2570,
+                    "endColumn": 57,
+                    "endOffset": 2623
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 719,
-                        "endColumn": 47,
-                        "endOffset": 762
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2634,
-                    "endColumn": 43,
-                    "endOffset": 2673
+                    "startOffset": 2628,
+                    "endColumn": 54,
+                    "endOffset": 2678
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 675,
-                        "endColumn": 43,
-                        "endOffset": 714
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 2678,
-                    "endColumn": 46,
-                    "endOffset": 2720
+                    "startOffset": 2683,
+                    "endColumn": 47,
+                    "endOffset": 2726
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 767,
-                        "endColumn": 46,
-                        "endOffset": 809
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 2725,
-                    "endColumn": 48,
-                    "endOffset": 2769
+                    "startOffset": 2731,
+                    "endColumn": 47,
+                    "endOffset": 2774
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 626,
-                        "endColumn": 48,
-                        "endOffset": 670
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 2774,
-                    "endColumn": 45,
-                    "endOffset": 2815
+                    "startOffset": 2779,
+                    "endColumn": 43,
+                    "endOffset": 2818
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 532,
-                        "endColumn": 45,
-                        "endOffset": 573
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 2820,
-                    "endColumn": 39,
-                    "endOffset": 2855
+                    "startOffset": 2823,
+                    "endColumn": 46,
+                    "endOffset": 2865
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
-                    "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 1280,
-                        "endColumn": 39,
-                        "endOffset": 1315
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 2860,
+                    "startOffset": 2870,
                     "endColumn": 48,
-                    "endOffset": 2904
+                    "endOffset": 2914
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 48,
-                        "endOffset": 99
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 2909,
-                    "endColumn": 46,
-                    "endOffset": 2951
+                    "startOffset": 2919,
+                    "endColumn": 45,
+                    "endOffset": 2960
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 104,
-                        "endColumn": 46,
-                        "endOffset": 146
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 2956,
-                    "endColumn": 92,
-                    "endOffset": 3044
+                    "startOffset": 2965,
+                    "endColumn": 39,
+                    "endOffset": 3000
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 151,
-                        "endColumn": 92,
-                        "endOffset": 239
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-zh-rTW/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 3049,
-                    "endColumn": 69,
-                    "endOffset": 3114
+                    "startOffset": 3005,
+                    "endColumn": 48,
+                    "endOffset": 3049
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.3.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 244,
-                        "endColumn": 69,
-                        "endOffset": 309
-                    }
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.3.0/res/values-zh-rTW/values-zh-rTW.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3054,
+                    "endColumn": 46,
+                    "endOffset": 3096
+                },
+                "from": {
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.3.0/res/values-zh-rTW/values-zh-rTW.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3101,
+                    "endColumn": 92,
+                    "endOffset": 3189
+                },
+                "from": {
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.3.0/res/values-zh-rTW/values-zh-rTW.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3194,
+                    "endColumn": 69,
+                    "endOffset": 3259
+                },
+                "from": {
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.3.0/res/values-zh-rTW/values-zh-rTW.xml"
                 }
             }
         ]

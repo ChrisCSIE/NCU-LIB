@@ -16,17 +16,48 @@ import android.widget.TextView;
 /**
  * Created by chenli-han on 2014/8/14.
  */
-public class BookDetailAdapter extends ArrayAdapter<Item> {
-    private ArrayList<Item> items;
+//public class BookDetailAdapter extends ArrayAdapter<Item> {
+//    private ArrayList<Item> items;
+//    private LayoutInflater inflater;
+
+public class BookDetailAdapter extends ArrayAdapter<ListviewItem> {
+    private ArrayList<ListviewItem> items;
     private LayoutInflater inflater;
 
-    public BookDetailAdapter(Context context, ArrayList<Item> items) {
+//    public BookDetailAdapter(Context context, ArrayList<Item> items) {
+//        super(context, 0, items);
+//        this.items = items;
+//        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//    }
+
+    public BookDetailAdapter(Context context, ArrayList<ListviewItem> items) {
         super(context, 0, items);
         this.items = items;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View view = convertView;
+
+//        final Item item = items.get(position);
+        final ListviewItem item = items.get(position);
+        if(item != null) {
+            view = inflater.inflate(R.layout.item_listview, null);
+
+            TextView section = (TextView) view.findViewById(R.id.item_listview_section);
+            if(section != null)
+                section.setText(item.getSection());
+
+            TextView content = (TextView) view.findViewById(R.id.item_listview_content);
+            if(content != null)
+                content.setText(item.getContent());
+        }
+
+        return view;
+    }
+
+    /*@Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = convertView;
         int SectionFontSize = 20;
@@ -58,5 +89,5 @@ public class BookDetailAdapter extends ArrayAdapter<Item> {
         }
 
         return view;
-    }
+    }*/
 }

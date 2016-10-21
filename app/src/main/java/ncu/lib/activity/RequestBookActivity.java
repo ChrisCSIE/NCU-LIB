@@ -89,8 +89,8 @@ public class RequestBookActivity extends Activity implements AdapterView.OnItemC
                             mUrl = jsonObject.optString("url");
 
                             if(mBookname != "") {
-                                String header = getResources().getString(R.string.request);
-                                mRequestList.add(new SectionItem(header));
+//                                String header = getResources().getString(R.string.request);
+//                                mRequestList.add(new SectionItem(header));
                                 mRequestList.add(new SectionItem(mBookname));
                             }
 
@@ -188,6 +188,7 @@ public class RequestBookActivity extends Activity implements AdapterView.OnItemC
             this.itemNumber = item_no;
             this.url = url;
             this.request = request;
+//            Toast.makeText(RequestBookActivity.this, url, Toast.LENGTH_LONG).show();
         }
 
         @Override

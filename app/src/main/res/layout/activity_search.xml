@@ -21,24 +21,27 @@
         android:textColor="@drawable/word"
         android:textStyle="bold"
         android:hint="@string/search_hint"
-        android:imeOptions="actionSearch" />
+        android:imeOptions="actionSearch"
+        android:layout_toLeftOf="@+id/search_button"
+        android:layout_toStartOf="@+id/search_button" />
     <!-- android:layout_below="@+id/textView"
         android:lines="1"
         android:maxLines="1" -->
 
     <Button
         android:id="@+id/search_button"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/keyword"
-        android:layout_marginTop="14dp"
         android:drawableLeft="@drawable/ic_action_search"
-        android:paddingLeft="35dp"
-        android:paddingRight="35dp"
-        android:text="@string/search_button"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:textColor="@drawable/button_word"
-        android:textSize="30sp" />
-    
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/keyword" />
+
     <Button
         android:id="@+id/ISBNsearch_button"
         android:layout_width="fill_parent"
@@ -50,7 +53,7 @@
         android:paddingRight="35dp"
         android:text="@string/ISBNsearch_button"
         android:textColor="@drawable/button_word"
-        android:textSize="30sp" />
+        android:textSize="30dp" />
     
     <!-- 
         android:background="@drawable/button"

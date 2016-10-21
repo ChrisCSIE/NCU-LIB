@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ncu.lib"
     android:versionCode="3"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -12,83 +12,84 @@
     <!-- 使用internet(要自己加下面那一行標籤) -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:theme="@style/CustomActionBarTheme" >
+        android:theme="@style/CustomActionBarTheme">
+
         <!-- android:theme="@style/AppTheme" -->
         <activity
             android:name=".activity.LoginActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity
+        <!--
+        <activity
             android:name=".activity.MainMenuView"
             android:label="@string/title_activity_main_menu_view" >
-        </activity>-->
-        <!-- 
+        </activity>
+        -->
+        <!--
         <activity
             android:name=".activity.RootActivity"
             android:label="@string/title_activity_root" >
         </activity>
-         -->
+        -->
         <activity
             android:name=".activity.MenuActivity"
             android:label="@string/title_activity_menu"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.SearchActivity"
             android:label="@string/title_activity_search"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.BookDetailActivity"
             android:label="@string/title_activity_book_detail"
-            android:screenOrientation="portrait" >
-        </activity>
-        <!-- 
+            android:screenOrientation="portrait" />
+        <!--
         <activity
             android:name=".activity.BookDetailListActivity"
             android:label="@string/title_activity_book_detail_list" >
         </activity>
-         -->
+        -->
         <activity
             android:name=".activity.RequestBookActivity"
             android:label="@string/title_activity_request_book"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.RequestedActivity"
             android:label="@string/title_activity_requested"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.BorrowedActivity"
             android:label="@string/title_activity_borrowed"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.NewsActivity"
             android:label="@string/title_activity_news"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.NewBooksListActivity"
             android:label="@string/title_activity_new_books_list"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:screenOrientation="fullSensor"
             tools:replace="screenOrientation" />
+        <activity android:name=".activity.ScanActivity"
+            />
     </application>
 
 </manifest>

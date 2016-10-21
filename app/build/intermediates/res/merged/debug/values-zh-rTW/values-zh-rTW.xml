@@ -4,6 +4,7 @@
     <string name="account">帳號 :\u0020</string>
     <string name="action_settings">設定</string>
     <string name="app_name">中大圖書館</string>
+    <string name="back_menu">返回主選單</string>
     <string name="barcode">條碼</string>
     <string name="book_detail">索書號 / 館藏地 / 狀態 / 條碼</string>
     <string name="bookname">書名</string>
@@ -14,7 +15,7 @@
     <string name="cancel_request_success">已取消預約</string>
     <string name="clean">清除</string>
     <string name="extend_borrowed_fail">續借失敗，請稍後再試</string>
-    <string name="extend_borrowed_success">已成功續借</string>
+    <string name="extend_borrowed_success">已完成更新</string>
     <string name="hello_world">Hello world!</string>
     <string name="imprint">出版項</string>
     <string name="isbn">ISBN</string>
@@ -24,6 +25,8 @@
     <string name="logining">登入中，請耐心等候</string>
     <string name="network_issue">網路無法連接</string>
     <string name="next">下一頁</string>
+    <string name="no_selected_book">沒有選取任何書目</string>
+    <string name="no_this_book">沒有此書目</string>
     <string name="ok">確定</string>
     <string name="password">密碼 :\u0020</string>
     <string name="press_back_again">再按一次Back退出APP</string>
@@ -50,7 +53,7 @@
     <string name="title_activity_request_book">預約書目</string>
     <string name="title_activity_requested">預約書目</string>
     <string name="title_activity_search">館藏目錄</string>
-    <string name="title_borrowed">借閱書目</string>
+    <string name="title_borrowed">借書記錄</string>
     <string name="title_newbooks">新進館藏</string>
     <string name="title_news">最新消息</string>
     <string name="title_notice">開館及其他</string>

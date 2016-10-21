@@ -22,9 +22,13 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+
+import java.util.Random;
 
 @SuppressLint("WrongCall")
 public class MainMenuView extends SurfaceView implements SurfaceHolder.Callback {
@@ -69,6 +73,12 @@ public class MainMenuView extends SurfaceView implements SurfaceHolder.Callback 
             Log.d("URL", url);
             return false;
         }
+
+		@Override
+		public void onPageFinished(WebView view, String url) {
+			super.onPageFinished(view, url);
+			//view.setBackgroundColor(Color.rgb(new Random().nextInt(256),new Random().nextInt(256),new Random().nextInt(256)));
+		}
     };
 
 	public MainMenuView(Activity activity) {
@@ -205,27 +215,35 @@ public class MainMenuView extends SurfaceView implements SurfaceHolder.Callback 
 				final WebView webView = new WebView(activity);
 				webView.getSettings().setJavaScriptEnabled(true);
 		        webView.loadUrl(mURL);
+				// adjust size of view to fit web content
+				webView.getSettings().setLoadWithOverviewMode(true);
+				webView.getSettings().setUseWideViewPort(true);
+				// enable webview zooming
+				webView.getSettings().setBuiltInZoomControls(true);
+				webView.getSettings().setDisplayZoomControls(false);
 		        
-		        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(activity);
+		        final AlertDialog.Builder alertBuilder = new AlertDialog.Builder(activity);
 		        alertBuilder.setView(webView);
-		        alertBuilder.setNeutralButton("上一頁", null);
-		        alertBuilder.setNegativeButton("返回主選單", null);
-		        //alertBuilder.setCancelable(false);
+		        alertBuilder.setNeutralButton(getResources().getText(R.string.prev), null);
+		        alertBuilder.setNegativeButton(getResources().getText(R.string.back_menu), null);
+		        alertBuilder.setCancelable(false);
                 
                 final AlertDialog alertDialog = alertBuilder.create();
                 alertDialog.setOnShowListener(new DialogInterface.OnShowListener() {
-					
+
 					@Override
 					public void onShow(DialogInterface dialog) {
 						// TODO Auto-generated method stub
 						Button prevPage = alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL);
 						prevPage.setOnClickListener(new View.OnClickListener() {
-							
+
 							@Override
 							public void onClick(View v) {
 								// TODO Auto-generated method stub
-								if (webView.canGoBack())
+								if (webView.canGoBack()) {
 									webView.goBack();
+//									alertDialog.getWindow().setLayout(getRootView().getWidth(), ViewGroup.LayoutParams.WRAP_CONTENT);
+								}
 							}
 						});
 						
@@ -242,7 +260,7 @@ public class MainMenuView extends SurfaceView implements SurfaceHolder.Callback 
 				});
                 
 //                alertDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-//					
+//
 //					@Override
 //					public void onCancel(DialogInterface dialog) {
 //						// TODO Auto-generated method stub
@@ -252,8 +270,8 @@ public class MainMenuView extends SurfaceView implements SurfaceHolder.Callback 
 //							alertDialog.cancel();
 //					}
 //				});
-                
-                alertDialog.show();
+
+				alertDialog.show();
                 webView.reload();
                 
 //                alert.setNeutralButton("上一頁", new DialogInterface.OnClickListener() {

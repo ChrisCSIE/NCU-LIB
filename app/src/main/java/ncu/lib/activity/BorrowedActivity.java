@@ -2,6 +2,7 @@ package ncu.lib.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -120,50 +121,59 @@ public class BorrowedActivity extends Activity {
 //                            final ProgressBar progressBar = (ProgressBar) findViewById(R.id.borrowed_loading);
                             progressBar.setVisibility(View.VISIBLE);
 
+                            boolean noAnyChecked = true;
                             for(BookItem book: mBookItemList) {
                                 if(book.isChecked()) {
                                     params.put(book.getItemid(), "on");
+                                    noAnyChecked = false;
                                 }
                             }
 
-                            JsonObjectRequestWithPostParams jsonObjectRequest = new JsonObjectRequestWithPostParams(
-                                    Request.Method.POST,
-                                    GlobalStaticVariable.BASEURL + "user/renew?token=" + mToken,
-                                    params,
-                                    new Response.Listener<JSONObject>() {
-                                        @Override
-                                        public void onResponse(JSONObject jsonObject) {
-                                            try {
-                                                parseJsonBookArray(jsonObject);
+                            if (noAnyChecked) {
+                                progressBar.setVisibility(View.GONE);
+                                Toast.makeText(getApplicationContext(),
+                                        getResources().getString(R.string.no_selected_book), Toast.LENGTH_SHORT).show();
+                            }
+                            else {
+                                JsonObjectRequestWithPostParams jsonObjectRequest = new JsonObjectRequestWithPostParams(
+                                        Request.Method.POST,
+                                        GlobalStaticVariable.BASEURL + "user/renew?token=" + mToken,
+                                        params,
+                                        new Response.Listener<JSONObject>() {
+                                            @Override
+                                            public void onResponse(JSONObject jsonObject) {
+                                                try {
+                                                    parseJsonBookArray(jsonObject);
 
-                                                mBorrowedAdapter.notifyDataSetChanged();
-                                                progressBar.setVisibility(View.GONE);
-                                                
+                                                    mBorrowedAdapter.notifyDataSetChanged();
+                                                    progressBar.setVisibility(View.GONE);
+
 //                                                Toast.makeText(getApplicationContext(),
-//            											"¤wÄò­É", Toast.LENGTH_SHORT).show();
-                                                String message;
-                                                if (jsonObject.getBoolean("success")==true)
-                                                	message = (String)getResources().getText(R.string.extend_borrowed_success);
-                                                else
-                                                	message = (String)getResources().getText(R.string.extend_borrowed_fail);
-                                                
-                                                Toast.makeText(getApplicationContext(),
-            											message, Toast.LENGTH_SHORT).show();
+//            											"???", Toast.LENGTH_SHORT).show();
+                                                    String message;
+                                                    if (jsonObject.getBoolean("success") == true)
+                                                        message = (String) getResources().getText(R.string.extend_borrowed_success);
+                                                    else
+                                                        message = (String) getResources().getText(R.string.extend_borrowed_fail);
 
-                                                if(mBorrowedAdapter.getCount() == 0) {
-                                                    button.setVisibility(View.GONE);
+                                                    Toast.makeText(getApplicationContext(),
+                                                            message, Toast.LENGTH_SHORT).show();
 
-                                                    TextView tv = (TextView) findViewById(R.id.no_borrowed);
-                                                    tv.setVisibility(View.VISIBLE);
+                                                    if (mBorrowedAdapter.getCount() == 0) {
+                                                        button.setVisibility(View.GONE);
+
+                                                        TextView tv = (TextView) findViewById(R.id.no_borrowed);
+                                                        tv.setVisibility(View.VISIBLE);
+                                                    }
+                                                } catch (JSONException e) {
+                                                    e.printStackTrace();
                                                 }
-                                            } catch (JSONException e) {
-                                                e.printStackTrace();
                                             }
-                                        }
-                                    }, mErrorListener
-                            );
+                                        }, mErrorListener
+                                );
 
-                            mQueue.add(jsonObjectRequest);
+                                mQueue.add(jsonObjectRequest);
+                            }
                         }
                     });
                 }
@@ -179,7 +189,7 @@ public class BorrowedActivity extends Activity {
 
         for (int i = 0; i < bookArray.length(); ++i) {
             JSONObject json = bookArray.getJSONObject(i);
-            BookItem book = new BookItem(json.getString("bookname"),
+            BookItem book = new BookItem(CodeConverter(json.getString("bookname")),
                                          json.getString("status"),
                                          json.getString("item"),
                                          false);
@@ -224,5 +234,10 @@ public class BorrowedActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    // ??HTML??
+    String CodeConverter(String s) {
+        return Html.fromHtml(s).toString();
     }
 }

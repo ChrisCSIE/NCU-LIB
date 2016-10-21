@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

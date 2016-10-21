@@ -16,8 +16,11 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Matrix;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Display;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -54,13 +57,15 @@ public class SearchActivity extends Activity {
     private String mQueryString;
     private RelativeLayout loadingPanel, searchLayout;
 //    private SearchBookAdapter bookAdapter;
-    IntentIntegrator integrator;
-    IntentResult scanResult;
+    private IntentIntegrator integrator;
+    private IntentResult scanResult;
 
-    RequestQueue mQueue;
+    private RequestQueue mQueue;
     
     private Button nextBtn, prevBtn;
     private String mNext, mPrev;
+
+    private int scanCode = 1001;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +89,11 @@ public class SearchActivity extends Activity {
 		searchButton.setOnClickListener(searchEvent);
 		ISBNsearchButton = (Button)findViewById(R.id.ISBNsearch_button);
 		ISBNsearchButton.setOnClickListener(ISBNSearchEvent);
+
+//        Display display = getWindowManager().getDefaultDisplay();
+//        DisplayMetrics metrics = getResources().getDisplayMetrics();
+        //Toast.makeText(this, metrics.toString(), Toast.LENGTH_LONG).show();
+//        ISBNsearchButton.setTextSize(metrics.densityDpi/20);
 		
 
         mBookIDList = new ArrayList<String>();
@@ -170,23 +180,41 @@ public class SearchActivity extends Activity {
 			
 			InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
 			imm.hideSoftInputFromWindow(searchButton.getWindowToken(), 0);
+
+            Intent intent = new Intent();
+            intent.setClass(SearchActivity.this, ScanActivity.class);
+            startActivity(intent);
 			
-			integrator = new IntentIntegrator(SearchActivity.this);//指定當前的Activity
-            integrator.setOrientationLocked(false);
-			integrator.initiateScan(); //啟動掃描器
+//			integrator = new IntentIntegrator(SearchActivity.this);//指定當前的Activity
+//            integrator.setOrientationLocked(false);
+//			integrator.initiateScan(); //啟動掃描器
 		}
 	};
+
+    /*public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		if (requestCode == scanCode) {
+            if (intent.getBundleExtra("BOOK") == null)
+                Toast.makeText(SearchActivity.this, "No this book.", Toast.LENGTH_SHORT).show();
+            else {
+                Bundle bundle = intent.getBundleExtra("BOOK");
+                mBookNameList = bundle.getStringArrayList("NAME");
+                mBookIDList = bundle.getStringArrayList("ID");
+                mListAdapter.notifyDataSetChanged();
+            }
+        }
+	}*/
 	
 	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
 		scanResult = integrator.parseActivityResult(requestCode, resultCode, intent);
 		if(scanResult != null) {
-			keyword.setText(scanResult.getContents());
-			ISBNSearch();
+			//keyword.setText(scanResult.getContents());
+			ISBNSearch(scanResult.getContents());
 		}
 	}
 	
-	private void ISBNSearch() {
-        mQueryString = keyword.getText().toString();
+	private void ISBNSearch(String scanCode) {
+        //mQueryString = keyword.getText().toString();
+        mQueryString = scanCode;
 		if(mQueryString.equals("")) {
 			Toast.makeText(SearchActivity.this, getResources().getString(
 					R.string.search_hint), Toast.LENGTH_SHORT).show();
@@ -224,14 +252,14 @@ public class SearchActivity extends Activity {
         @Override
         public void onResponse(JSONObject jsonObject) {
             try {
-                mBookIDList.clear();
-                mBookNameList.clear();
-
-                mNext = jsonObject.getString("next");
-                mPrev = jsonObject.getString("prev");
+//                mBookIDList.clear();
+//                mBookNameList.clear();
+//
+//                mNext = jsonObject.getString("next");
+//                mPrev = jsonObject.getString("prev");
 
                 JSONArray bookJSONArray = jsonObject.getJSONArray("books");
-                for (int i = 0; i < bookJSONArray.length(); ++i) {
+                /*Jfor (int i = 0; i < bookJSONArray.length(); ++i) {
                     JSONObject temp = bookJSONArray.getJSONObject(i);
                     mBookNameList.add(i, temp.getString("booktitle"));
                     mBookIDList.add(i, temp.getString("url"));
@@ -240,17 +268,19 @@ public class SearchActivity extends Activity {
 //                    loadingPanel.setVisibility(View.GONE);
                 }
                 if(mListAdapter != null)
-                    mListAdapter.notifyDataSetChanged();
+                    mListAdapter.notifyDataSetChanged();*/
                 
-                if(mBookNameList.isEmpty())
-                	Toast.makeText(SearchActivity.this, "No this book.", Toast.LENGTH_SHORT).show();
-                else
-                	ISBN_BookDatail(mBookIDList.get(0));
+                if(bookJSONArray.length() == 0)
+                	Toast.makeText(SearchActivity.this, getResources().getText(R.string.no_this_book), Toast.LENGTH_SHORT).show();
+                else {
+                    JSONObject temp = bookJSONArray.getJSONObject(0);
+                    ISBN_BookDatail(temp.getString("url"));
+                }
                 
                 loadingPanel.setVisibility(View.GONE);
                 mListView.setVisibility(View.VISIBLE);
-                prevBtn.setVisibility(View.VISIBLE);
-                nextBtn.setVisibility(View.VISIBLE);
+//                prevBtn.setVisibility(View.VISIBLE);
+//                nextBtn.setVisibility(View.VISIBLE);
 
             } catch (JSONException e) {
                 e.printStackTrace();

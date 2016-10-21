@@ -25,6 +25,7 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,17 +58,27 @@ public class RequestBookAdapter extends ArrayAdapter<Item> {
         if (item != null) {
             if(item.isSection()) {
                 SectionItem sectionItem = (SectionItem) item;
+                view = inflater.inflate(R.layout.item_listview, null);
+
+                view.setOnClickListener(null);
+
+                final TextView sectionView = (TextView) view.findViewById(R.id.item_listview_section);
+                sectionView.setText(sectionItem.getTitle());
+                sectionView.setTextColor(Color.BLACK);
+
+                /*SectionItem sectionItem = (SectionItem) item;
                 view = inflater.inflate(R.layout.item_section_header, null);
 
                 view.setOnClickListener(null);
 
                 final TextView sectionView = (TextView) view.findViewById(R.id.item_section_header);
-                if (position==0)
-	                fontSize = 20;
-                else
-                	fontSize = 17;
-                sectionView.setTextSize(fontSize);
-                sectionView.setText(sectionItem.getTitle());
+//                if (position==0)
+//                    Toast.makeText(getContext(), String.valueOf(view.getWidth()), Toast.LENGTH_SHORT).show();
+//	                fontSize = view.getWidth()/4;
+//                else
+//                	fontSize = view.getWidth()/5;
+//                sectionView.setTextSize(fontSize);
+                sectionView.setText(sectionItem.getTitle());*/
             } else {
                 EntryItem entryItem = (EntryItem) item;
 
@@ -77,6 +88,7 @@ public class RequestBookAdapter extends ArrayAdapter<Item> {
                 
                 if(button != null) {
                     button.setText(entryItem.getTitle());
+                    button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
                 }
 
                 if(entryItem instanceof Requestable) {
@@ -85,9 +97,9 @@ public class RequestBookAdapter extends ArrayAdapter<Item> {
                     final String request = ((Requestable) entryItem).getRequest();
 
                     if(!((Requestable) entryItem).isRequestable()) {
-                        button.setTextColor(Color.GRAY);
+                        button.setTextColor(Color.WHITE);
                         button.setClickable(false);
-                        button.setBackgroundColor(R.drawable.not_requestable);
+                        button.setBackgroundColor(getContext().getResources().getColor(R.color.not_requestable));
                     } else {
                         Drawable icon = getContext().getResources().getDrawable(R.drawable.ic_action_forward);
 
@@ -120,7 +132,9 @@ public class RequestBookAdapter extends ArrayAdapter<Item> {
                                                 	if (jsonObject.getBoolean("success")==true){
                                                 		message = context.getResources().getString(R.string.request_result_success);
                                                 		button.setClickable(false);
-                                                		button.setBackgroundColor(R.drawable.not_requestable);
+                                                        button.setBackgroundColor(getContext().getResources().getColor(R.color.not_requestable));
+//                                                        String m = jsonObject.getString("message");
+//                                                        Toast.makeText(getContext(), message, Toast.LENGTH_LONG).show();
                                                 	}
                                                 	else {
                                                 		message = context.getResources().getString(R.string.request_result_fail);

@@ -18,6 +18,7 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -112,52 +113,61 @@ public class RequestedActivity extends Activity {
 //                            final ProgressBar progressBar = (ProgressBar) findViewById(R.id.requested_loading);
                             progressBar.setVisibility(View.VISIBLE);
 
+                            boolean noAnyChecked = true;
                             for (BookItem book: mBookItemList) {
                                 if (book.isChecked()) {
                                     params.put(book.getItemid(), "on");
+                                    noAnyChecked = false;
                                 }
                             }
 
-                            JsonObjectRequestWithPostParams jsonObjectRequest = new JsonObjectRequestWithPostParams(
-                                    Request.Method.POST,
-                                    GlobalStaticVariable.BASEURL + "user/cancelreserve?token=" + mToken,
-                                    params,
-                                    new Response.Listener<JSONObject>() {
-                                        @Override
-                                        public void onResponse(JSONObject jsonObject) {
-                                            try {
-                                                parseJsonBookArray(jsonObject);
-                                                mRequestedAdapter.notifyDataSetChanged();
-                                                progressBar.setVisibility(View.GONE);
-                                                
-                                                String message;
-                                                if (jsonObject.getBoolean("success")==true)
-                                                	message = (String)getResources().getText(R.string.cancel_request_success);
-                                                else
-                                                	message = (String)getResources().getText(R.string.cancel_request_fail);
-                                                
-                                                Toast.makeText(getApplicationContext(),
-            											message, Toast.LENGTH_SHORT).show();
+                            if (noAnyChecked) {
+                                progressBar.setVisibility(View.GONE);
+                                Toast.makeText(getApplicationContext(),
+                                        getResources().getString(R.string.no_selected_book), Toast.LENGTH_SHORT).show();
+                            }
+                            else {
+                                JsonObjectRequestWithPostParams jsonObjectRequest = new JsonObjectRequestWithPostParams(
+                                        Request.Method.POST,
+                                        GlobalStaticVariable.BASEURL + "user/cancelreserve?token=" + mToken,
+                                        params,
+                                        new Response.Listener<JSONObject>() {
+                                            @Override
+                                            public void onResponse(JSONObject jsonObject) {
+                                                try {
+                                                    parseJsonBookArray(jsonObject);
+                                                    mRequestedAdapter.notifyDataSetChanged();
+                                                    progressBar.setVisibility(View.GONE);
 
-                                                if(mRequestedAdapter.getCount() == 0) {
-                                                    button.setVisibility(View.GONE);
-                                                    TextView tv = (TextView) findViewById(R.id.no_requested);
-                                                    tv.setVisibility(View.VISIBLE);
+                                                    String message;
+                                                    if (jsonObject.getBoolean("success") == true)
+                                                        message = (String) getResources().getText(R.string.cancel_request_success);
+                                                    else
+                                                        message = (String) getResources().getText(R.string.cancel_request_fail);
+
+                                                    Toast.makeText(getApplicationContext(),
+                                                            message, Toast.LENGTH_SHORT).show();
+
+                                                    if (mRequestedAdapter.getCount() == 0) {
+                                                        button.setVisibility(View.GONE);
+                                                        TextView tv = (TextView) findViewById(R.id.no_requested);
+                                                        tv.setVisibility(View.VISIBLE);
+                                                    }
+                                                } catch (JSONException e) {
+                                                    e.printStackTrace();
                                                 }
-                                            } catch (JSONException e) {
-                                                e.printStackTrace();
                                             }
-                                        }
-                                    },
-                                    new Response.ErrorListener() {
-                                        @Override
-                                        public void onErrorResponse(VolleyError volleyError) {
+                                        },
+                                        new Response.ErrorListener() {
+                                            @Override
+                                            public void onErrorResponse(VolleyError volleyError) {
 //                                        	Toast.makeText(getApplicationContext(),
 //        											volleyError.getMessage(), Toast.LENGTH_SHORT).show();
+                                            }
                                         }
-                                    }
-                            );
-                            mQueue.add(jsonObjectRequest);
+                                );
+                                mQueue.add(jsonObjectRequest);
+                            }
                         }
                     });
                 }
@@ -174,7 +184,7 @@ public class RequestedActivity extends Activity {
 
         for (int i = 0; i < bookArray.length(); ++i) {
             JSONObject json = bookArray.getJSONObject(i);
-            BookItem book = new BookItem(json.getString("bookname"),
+            BookItem book = new BookItem(CodeConverter(json.getString("bookname")),
                                              json.getString("status"),
                                              json.getString("item"),
                                              false);
@@ -222,5 +232,10 @@ public class RequestedActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    // ??HTML??
+    String CodeConverter(String s) {
+        return Html.fromHtml(s).toString();
     }
 }

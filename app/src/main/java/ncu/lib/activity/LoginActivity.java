@@ -276,7 +276,7 @@ public class LoginActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	/* finish the application when press twice "back" *//* 按兩次退出才結束APP */
+	/* finish the application when press twice "back" *//* ????????APP */
 	Timer timerExit = new Timer();
 	TimerTask task = new TimerTask() {
 		@Override
@@ -288,20 +288,20 @@ public class LoginActivity extends Activity {
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		// 判斷是否按下Back
+		// ??????Back
 		if (keyCode == KeyEvent.KEYCODE_BACK) {
-			// 是否要退出
+			// ?????
 			if (isExit == false) {
-				isExit = true; // 記錄下一次要退出
+				isExit = true; // ????????
 				Toast.makeText(this, getResources().getText(R.string.press_back_again), Toast.LENGTH_SHORT)
 						.show();
 
-				// 如果超過兩秒則恢復預設值
+				// ????????????
 				if (!hasTask) {
 					timerExit.schedule(task, 2000);
 				}
 			} else {
-				finish(); // 離開程式
+				finish(); // ????
 				System.exit(0);
 			}
 		}

@@ -17,10 +17,11 @@
     <drawable name="button">#0175BE</drawable>
     <drawable name="button_word">#F1F5EF</drawable>
     <drawable name="loading_background">#F0F0F0</drawable>
-    <drawable name="not_requestable">#77A6A6A6</drawable>
+    <!--<drawable name="not_requestable">#77A6A6A6</drawable>-->
     
     
     <color name="button">#5ECBBC</color>
     <color name="not_requestable">#888888</color>
+    <color name="light_gray">#EEEEEE</color>
 
 </resources>

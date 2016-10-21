@@ -10,15 +10,18 @@
 
     <!-- 使用internet(要自己加下面那一行標籤) -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
- <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
     <uses-feature
         android:name="android.hardware.camera.front"
-        android:required="false" />
- <!-- TODO replace above two with next line after Android 4.2 -->
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
     <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
     <uses-feature
         android:name="android.hardware.camera.autofocus"
@@ -66,18 +69,15 @@
         <activity
             android:name="ncu.lib.activity.MenuActivity"
             android:label="@string/title_activity_menu"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="ncu.lib.activity.SearchActivity"
             android:label="@string/title_activity_search"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="ncu.lib.activity.BookDetailActivity"
             android:label="@string/title_activity_book_detail"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <!--
         <activity
             android:name=".activity.BookDetailListActivity"
@@ -87,28 +87,23 @@
         <activity
             android:name="ncu.lib.activity.RequestBookActivity"
             android:label="@string/title_activity_request_book"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="ncu.lib.activity.RequestedActivity"
             android:label="@string/title_activity_requested"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="ncu.lib.activity.BorrowedActivity"
             android:label="@string/title_activity_borrowed"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="ncu.lib.activity.NewsActivity"
             android:label="@string/title_activity_news"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="ncu.lib.activity.NewBooksListActivity"
             android:label="@string/title_activity_new_books_list"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"
@@ -116,6 +111,7 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="ncu.lib.activity.ScanActivity" />
     </application>
 
 </manifest>

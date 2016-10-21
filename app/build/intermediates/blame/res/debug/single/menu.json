@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\menu\\login.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/menu/menu_borrowed.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/menu/menu_borrowed.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_borrowed.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\menu\\menu_borrowed.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/menu/menu_requested.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/menu/menu_requested.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\menu\\request_book.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\menu\\request_book.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/menu/request_book.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/menu/request_book.xml"
     },
     {
-        "merged": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_requested.xml",
-        "source": "C:\\Users\\GTA\\Documents\\GitHub\\NCU-LIB\\app\\src\\main\\res\\menu\\menu_requested.xml"
+        "merged": "/Users/nculib/Documents/GitHub/NCU-LIB/app/build/intermediates/res/merged/debug/menu/login.xml",
+        "source": "/Users/nculib/Documents/GitHub/NCU-LIB/app/src/main/res/menu/login.xml"
     }
 ]

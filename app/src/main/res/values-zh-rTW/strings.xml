@@ -16,7 +16,7 @@
     <string name="logining">登入中，請耐心等候</string>
     
     <string name="title_search">館藏目錄</string>
-    <string name="title_borrowed">借閱書目</string>
+    <string name="title_borrowed">借書記錄</string>
     <string name="title_requested">預約書目</string>
     <string name="title_news">最新消息</string>
     <string name="title_newbooks">新進館藏</string>
@@ -28,6 +28,8 @@
     <string name="ISBNsearch_button">ISBN查詢</string>
     <string name="prev">前一頁</string>
     <string name="next">下一頁</string>
+    <string name="no_this_book">沒有此書目</string>
+    <string name="back_menu">返回主選單</string>
     
     <string name="title_activity_book_detail">詳細資料</string>
     <string name="bookname">書名</string>
@@ -55,11 +57,12 @@
     <string name="button_cancel_request">取消所選預約</string>
     <string name="cancel_request_success">已取消預約</string>
     <string name="cancel_request_fail">取消預約失敗，請稍後再試</string>
+    <string name="no_selected_book">沒有選取任何書目</string>
     
     <string name="title_activity_borrowed">借閱書目</string>
     <string name="text_no_borrowed">暫無借閱書目 ...</string>
     <string name="button_extend_borrowed">續借所選書目</string>
-    <string name="extend_borrowed_success">已成功續借</string>
+    <string name="extend_borrowed_success">已完成更新</string>
     <string name="extend_borrowed_fail">續借失敗，請稍後再試</string>
     
     <string name="title_activity_news">最新消息</string>
